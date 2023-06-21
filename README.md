@@ -26,4 +26,4 @@ Stephany, S., Strauss, C., Calheiros, A. J. P., de Lima, G. R. T., Garcia, J. V.
 # Presentations
 
 - Presentation of the subject Advanced Topics in Environmental Modeling (CAP-425-3). https://youtu.be/V1U7X8ZxWy0 (in Portuguese)
-- Prof. Leonardo Santos channel containing material about the course. https://www.youtube.com/@santoslblx/videos
+- Prof. Leonardo Santos channel, with material related to the course. https://www.youtube.com/@santoslblx/videos
