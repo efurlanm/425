@@ -2,7 +2,7 @@
 
 *Last edited: 2023-06-21*
 
-This repository contains my work and personal notes for this [course at INPE](http://www.inpe.br/posgraduacao/) .
+This repository contains my work and personal notes for this course at [INPE](http://www.inpe.br/posgraduacao/) .
 
 # Course summary
 
