@@ -1,6 +1,6 @@
 # My personal notes from CAP 425 Advanced Topics in Environmental Modeling
 
-*2023-06-21*
+*Last edited: 2023-06-21*
 
 This repository contains my work and personal notes for this [course at INPE](http://www.inpe.br/posgraduacao/)
 
