@@ -14,7 +14,7 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 ## Works
 
-- <cerrado.md>: review of [New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868) (original article in Portuguese)
+- [cerrado.md](cerrado.md): review of [New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868) (original article in Portuguese)
 
 ## Random links
 
