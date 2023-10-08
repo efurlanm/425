@@ -16,9 +16,14 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 - [cerrado.md](cerrado.md): review points of [New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868) (original article in Portuguese)
 
-- [descriptive.md](descriptive.md): review points on descriptive statistics
+- [descriptive.md](descriptive.md) and [descriptive.ipynb](descriptive.ipynb): review points on descriptive statistics
 
-- [regression.md](regression.md): review points on regression analysis
+- [average.ipynb](average.ipynb): comparison of averages
+
+- [regression.ipynb](regression.ipynb): linear regression
+
+- [stochastic.ipynb](stochastic.ipynb): Stochastic Gradient Descent
+
 
 ## Random links
 

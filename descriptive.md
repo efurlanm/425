@@ -5,15 +5,14 @@
 Measures of central tendency
 
 - Mean: the sum of a variable's values divided by the total number of values
-- Median: the middle value of a variable
+- Median: the median is the middle value in a list ordered from smallest to largest
 - Mode: the value that occurs most often
 
 Measures of Dispersion and Variability
 
-- Standard Deviation: average distance that individual data points are from the mean
 - Coefficient of Variation: how much variation occurs within your data set. The higher it is the more data points you need to collect to be confident that the sample is representative of the population. It can also be used to compare variation between data sets
 - Variance (s²): the expectation of the squared deviation of a random variable from its mean
-- Standard Error (SE): how closely your sample relates to the population
+- Standard Deviation: measure of the amount of variation of a set of values. A low value indicates that the sample tends to be close to the mean, while a high value indicates that the sample is scattered.
 - Range: the highest and lowest value in a data set
 - Percentile: represent position of a values in data set
 - Quartiles: values that divide your data into quarters
