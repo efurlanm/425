@@ -24,7 +24,6 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 - [stochastic.ipynb](stochastic.ipynb): Stochastic Gradient Descent
 
-
 ## Random links
 
 - [The Library of Celsus](https://en.wikipedia.org/wiki/Library_of_Celsus): considered an architectural marvel, it was the third largest library in the Greco-Roman world, behind only those in Alexandria and Pergamum. Today located near the modern city of Selçuk in the province of Izmir in western Turkey, the building was commissioned in the 110s AD by a consul of the Roman Empire, Tiberius Julius Aquila Polemaeanus, as a funerary monument for his father, Tiberius Julius Celsus Polemaeanus, former proconsul of Asia.
