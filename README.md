@@ -1,6 +1,6 @@
 # My personal notes from Advanced Topics in Environmental Modeling (CAP 425)
 
-*Last edited: 2023-10-08*
+*Last edited: 2023-12-01*
 
 This repository contains my work and personal notes for this course at [INPE](http://www.inpe.br/posgraduacao/).
 
@@ -26,13 +26,17 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 - [project](project): course project
 
-## Random links
+## Links of interest
 
 - [The Library of Celsus](https://en.wikipedia.org/wiki/Library_of_Celsus): considered an architectural marvel, it was the third largest library in the Greco-Roman world, behind only those in Alexandria and Pergamum. Today located near the modern city of Selçuk in the province of Izmir in western Turkey, the building was commissioned in the 110s AD by a consul of the Roman Empire, Tiberius Julius Aquila Polemaeanus, as a funerary monument for his father, Tiberius Julius Celsus Polemaeanus, former proconsul of Asia.
 
 - [Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics): the process of using and analyzing a summary statistic that quantitatively describes characteristics of a collection of information.
 
 - [Regression analysis](https://en.wikipedia.org/wiki/Regression_analysis): is a set of statistical processes to estimate the relationships between a dependent variable and one or more independent variables, and the most common form is linear regression, in which the line that best fits the data is found according to a specific mathematical criterion.
+
+- [Escapil-Inchauspé \& Ruz (2023)](http://arxiv.org/abs/2302.08835) work on Horovod and PINN: <https://github.com/pescap/HorovodPINNs>
+
+- [Raissi et al. (2019)](https://doi.org/10.1016/j.jcp.2018.10.045) work on PINN: <https://github.com/maziarraissi/PINNs>
 
 ## Presentations
 
@@ -52,3 +56,11 @@ Albeverio, S., Jentsch, V., & Kantz, H. (Eds.). (2006). Extreme Events in Nature
 Santos, L. B. L., Londe, L. R., de Carvalho, T. J., S. Menasché, D., & Vega-Oliveros, D. A. (2019). About Interfaces Between Machine Learning, Complex Networks, Survivability Analysis, and Disaster Risk Reduction. In L. Bacelar Lima Santos, R. Galante Negri, & T. J. de Carvalho (Eds.), Towards Mathematics, Computers and Environment: A Disasters Perspective (pp. 185–215). Springer International Publishing. <https://doi.org/10.1007/978-3-030-21205-6_10> .
 
 Stephany, S., Strauss, C., Calheiros, A. J. P., de Lima, G. R. T., Garcia, J. V. C., & Pessoa, A. S. A. (2019). Data Mining Approaches to the Real-Time Monitoring and Early Warning of Convective Weather Using Lightning Data. In L. Bacelar Lima Santos, R. Galante Negri, & T. J. de Carvalho (Eds.), Towards Mathematics, Computers and Environment: A Disasters Perspective (pp. 83–101). Springer International Publishing. <https://doi.org/10.1007/978-3-030-21205-6_5> .
+
+<br>
+<table>
+  <tr>
+    <td><img src="img/construction.gif"></td>
+    <td>This work is permanently under construction, so its content changes constantly.</td>
+  </tr>
+</table>

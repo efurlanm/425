@@ -1,6 +1,8 @@
 # Course project - CAP-425
 
-HPC approach based on MPI and Physics-Informed Neural Network evaluated for a selected test problem
+Physics-Informed Neural Network evaluated for a selected test problem.
+
+The *results-raw* directory contains the raw results of several tests performed.
 
 
 # Links of interest
