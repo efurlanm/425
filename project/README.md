@@ -1,4 +1,6 @@
 # Course project - CAP-425
 
-The *results-raw* directory contains the raw results of several tests performed.
+*Last edited: 2023-12-08*
+
+This subdirectory contains the raw results of the tests performed, as well as the LaTeX sources of the article, and the presentation.
 
