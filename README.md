@@ -1,6 +1,6 @@
 # My personal notes from Advanced Topics in Environmental Modeling (CAP 425)
 
-*Last edited: 2023-12-08*
+*Last edited: 2024-02-17*
 
 This repository contains my work and personal notes for this course at [INPE](http://www.inpe.br/posgraduacao/).
 
@@ -39,6 +39,7 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 - [Raissi et al. (2019)](https://doi.org/10.1016/j.jcp.2018.10.045) work on PINN: <https://github.com/maziarraissi/PINNs>
 
+
 ## Presentations
 
 (in Portuguese)
@@ -49,6 +50,7 @@ This repository contains my work and personal notes for this course at [INPE](ht
 - Provocations - basic concepts in Complex Networks. <https://youtu.be/oH3XWGeD89w>.
 - Provocations - generation models in Complex Networks. <https://youtu.be/a33RaqwNQMs>.
 - Prof. Leonardo Santos channel, with material related to the course. <https://www.youtube.com/@santoslblx>.
+
 
 ## References
 
