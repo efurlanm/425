@@ -12,7 +12,7 @@ Eduardo F. Miranda. ORCID 0000-0003-1200-794X
 Stephan Stephany. ORCID 0000-0002-6302-4259  
 National Institute for Space Research (INPE)  
 Leonardo B. L. Santos. ORCID 0000-0002-3129-772X  
-Brazilian Centre for Monitoring and Early Warnings of Natural Disasters (CEMADEN)  
+Centre for Monitoring and Early Warnings of Natural Disasters (CEMADEN)  
 São José dos Campos, SP, Brazil  
 </center>
 <br>
