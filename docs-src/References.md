@@ -1,5 +1,3 @@
-# References
-
 <span id='Chevallier2000'>[1]</span>
 F. Chevallier, J. Morcrette, F. Chéruy, and N. A. Scott, “Use of a neural-network-based long-wave radiative-transfer scheme in the ECMWF atmospheric model,” Quart J Royal Meteoro Soc, vol. 126, no. 563, pp. 761–776, Jan. 2000, {06}. <https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.49712656318>
 

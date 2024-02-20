@@ -229,7 +229,7 @@
         
   
   <span class="md-ellipsis">
-    Data-Driven Parameter Discovery of a One-Dimensional Burgers' Equation Using a Physics-Informed Neural Network
+    Home
   </span>
   
 
@@ -397,7 +397,7 @@
   
   
     <li class="md-nav__item">
-      <a href="references.html" class="md-nav__link">
+      <a href="References.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -492,7 +492,7 @@
 
 <p>The following results are divided into 4 parts, in the last 3 the number of neurons per layer is fixed on the horizontal axis, and the vertical axis varies according to the number of layers and size of the dataset. In the first part the result is shown in the form of a graph rendered as a pseudo-colored image showing <span class="arithmatex">\(t\)</span>, <span class="arithmatex">\(x\)</span> and <span class="arithmatex">\(u(t,x)\)</span> (visual evaluation of the PINN's predictive accuracy), and also a slice at time <span class="arithmatex">\(t=0.5\)</span>. In the second part, the vertical axis is the number of layers (“Neurons x Layers” for simplicity), and in the third part it is the size of the dataset (“Neurons x Dataset” for simplicity). The fourth and final part shows the prediction time for some number of neurons per hidden layer and number of layers. The size of the dataset in some cases is called CP, meaning the same thing.</p>
 <h2 id="31-visual-assessment">3.1. Visual assessment</h2>
-<p>A visual assessment of PINN's predictive accuracy is shown in \autoref{fig:bur1}, with time <span class="arithmatex">\(t\)</span> on the horizontal axis and spatial coordinate <span class="arithmatex">\(x\)</span> on the vertical axis. The color scale refers to the speed <span class="arithmatex">\(u(x,t)\)</span>. The black marks on the graph represent 2,000 CPs randomly generated and used for training, and to obtain them $ \lambda_1 = 1 $ and $ \lambda_2 = 0.01/\pi $ were used. The network architecture used is composed of 4 hidden layers with 20 neurons each. The white solid vertical line at <span class="arithmatex">\(t=0.5\)</span> represents a specific snapshot shown in \autoref {fig:bur2}, which shows the overlapping solutions for PINN and GQM. For this specific result, the equation obtained by PINN is <span class="arithmatex">\(u_t + 0.99958 u_x - 0.0032199 u_{xx} = 0\)</span> whereas the equation used to obtain the training dataset is <span class="arithmatex">\(u_t + u_x - 0.0031831 u_{xx} = 0\)</span> . The network is able to identify the underlying partial differential equation with remarkable accuracy.</p>
+<p>A visual assessment of PINN's predictive accuracy is shown in <a href="#fig:bur1">Figure 1</a>, with time <span class="arithmatex">\(t\)</span> on the horizontal axis and spatial coordinate <span class="arithmatex">\(x\)</span> on the vertical axis. The color scale refers to the speed <span class="arithmatex">\(u(x,t)\)</span>. The black marks on the graph represent 2,000 CPs randomly generated and used for training, and to obtain them $ \lambda_1 = 1 $ and $ \lambda_2 = 0.01/\pi $ were used. The network architecture used is composed of 4 hidden layers with 20 neurons each. The white solid vertical line at <span class="arithmatex">\(t=0.5\)</span> represents a specific snapshot shown in <a href="#fig:bur2">Figure 2</a>, which shows the overlapping solutions for PINN and GQM. For this specific result, the equation obtained by PINN is <span class="arithmatex">\(u_t + 0.99958 u_x - 0.0032199 u_{xx} = 0\)</span> whereas the equation used to obtain the training dataset is <span class="arithmatex">\(u_t + u_x - 0.0031831 u_{xx} = 0\)</span> . The network is able to identify the underlying partial differential equation with remarkable accuracy.</p>
 <figure id="fig:bur1">
 <img src=img/burg-01.jpg>
 <figcaption>
@@ -503,17 +503,17 @@ Figure 1. Predicted solution $u(t, x)$ along with the training data. The horizon
 <figure id="fig:bur2">
 <img src=img/burg-02.jpg>
 <figcaption>
-Figure 1. Superimposed solutions for PINN (in red) and numerical solution (in blue) for the $t=0.5$ snapshot.
+Figure 2. Superimposed solutions for PINN (in red) and numerical solution (in blue) for the $t=0.5$ snapshot.
 </figcaption>
 </figure>
 
 <h2 id="32-neurons-x-layers">3.2. Neurons x Layers</h2>
 <p>For the results presented below, the hyperparameters <span class="arithmatex">\(N_{l}\)</span> (number of hidden layers) and <span class="arithmatex">\(N_{le}\)</span> (number of neurons per hidden layer) were varied, as well as the number of CPs for training.
-The \autoref{tab:resu1} shows the relative L2 errors and training times of the neural network, for different hyperparameters used: 10, 15, 20, 25, and 30 neurons per hidden layer, and 1, 2, 4, 6, and 8 hidden layers.
+The <a href="#tab:resu1">Table 1</a> shows the relative L2 errors and training times of the neural network, for different hyperparameters used: 10, 15, 20, 25, and 30 neurons per hidden layer, and 1, 2, 4, 6, and 8 hidden layers.
 The number of CPs was set at 2,000.
 All values shown here are the average of 3 runs.
 In this table it is possible to observe that there is a tendency for the best values to be concentrated in the center, probably because there is a problem of underfitting or overfitting in the values at the edges of the table. One of the highlights is that the smallest error is obtained with 6 hidden layers, not 8. In this specific case, increasing the number of layers not only does not increase precision, but also worsens performance.</p>
-<!-- Markdown tables are too simple and not sufficient in this case. The best workflow is to create the complex table in LO Calc (burg-iden-tables.ods), copy (Ctrc-C/Ctrl-V) to LO Draw, and then export in SVG format. -->
+<!-- Markdown tables are too simple. The best workflow is to create the complex table in LO Calc (burg-iden-tables.ods), copy (Ctrc-C/Ctrl-V) to LO Draw, and then export to SVG format. -->
 
 <figure id="tab:resu1">
 <img src="img/rlayerror.svg" width="90%">
@@ -530,7 +530,7 @@ In this table it is possible to observe that there is a tendency for the best va
 </figcaption>
 </figure>
 
-<p>The <a href="#fig:rlaygraptime">Figure 4</a> shows for 4 hidden layers, a tendency to describe a curve that resembles a parabolic, with a minimum processing time of 20 neurons per hidden layer. This is probably due to the problem of underfitting and overfitting occurring at the beginning and at the end of the curve.</p>
+<p>The <a href="#fig:rlaygraphtime">Figure 4</a> shows for 4 hidden layers, a tendency to describe a curve that resembles a parabolic, with a minimum processing time of 20 neurons per hidden layer. This is probably due to the problem of underfitting and overfitting occurring at the beginning and at the end of the curve.</p>
 <figure id="fig:rlaygraphtime">
 <img src="img/rlaygraptime.svg">
 <figcaption>
@@ -539,18 +539,18 @@ In this table it is possible to observe that there is a tendency for the best va
 </figure>
 
 <h2 id="33-neurons-x-dataset">3.3. Neurons x Dataset</h2>
-<p>The table \autoref{tab:rnu8error2} shows the relative L2 errors and training times of the neural network, for different hyperparameters and number of CPs used: 10, 15, 20, 25, and 30 neurons per hidden layer, and 400, 800, 1200, 1600, and 2000 CPs.
+<p>The table <a href="#tab:rnu8error">Table 2</a> shows the relative L2 errors and training times of the neural network, for different hyperparameters and number of CPs used: 10, 15, 20, 25, and 30 neurons per hidden layer, and 400, 800, 1200, 1600, and 2000 CPs.
 The number of layers was set at 8.
 All values shown here are the average of 3 runs.
 In this table, as in the previous one, it is possible to observe that there is a tendency for the best values to be concentrated in the center, probably because the problem of underfitting or overfitting is occurring in the values at the edges of the table. One of the highlights is that considering the smallest error and the shortest processing time, the best dataset size is 1600, and the best number of neurons per hidden layer is 20.</p>
-<figure id="fig:rnu8error">
+<figure id="tab:rnu8error">
 <img src="img/rnu8error.svg" width="90%">
 <figcaption>
 <b>Table 2</b>. Relative L2 errors and DNN training times for different number of neurons and dataset size. The number of hidden layers is set to 8. On the color scale, the best values are highlighted in red.
 </figcaption>
 </figure>
 
-<p>The \autoref{fig:rnu8grapherror2} shows that the error for 400 CPs is high compared to the others, 800 CPs presents a significant improvement in precision, and the other curves are relatively close, not presenting such a large accuracy gain.</p>
+<p>The <a href="#fig:rnu8grapherror">Figure 5</a> shows that the error for 400 CPs is high compared to the others, 800 CPs presents a significant improvement in precision, and the other curves are relatively close, not presenting such a large accuracy gain.</p>
 <figure id="fig:rnu8grapherror">
 <img src="img/rnu8grapherror.svg">
 <figcaption>
@@ -558,7 +558,7 @@ In this table, as in the previous one, it is possible to observe that there is a
 </figcaption>
 </figure>
 
-<p>The \autoref{fig:rnu8graphtime2} shows for most curves a tendency to describe a curve that resembles a parabolic, probably due to the problem of underfitting and overfitting occurring at the beginning and end of the curve. The shortest processing time occurs for 15 neurons per hidden layer, and 1600 CPs.</p>
+<p>The <a href="#fig:rnu8graphtime">Figure 6</a> shows for most curves a tendency to describe a curve that resembles a parabolic, probably due to the problem of underfitting and overfitting occurring at the beginning and end of the curve. The shortest processing time occurs for 15 neurons per hidden layer, and 1600 CPs.</p>
 <figure id="fig:rnu8graphtime">
 <img src="img/rnu8graphtime.svg">
 <figcaption>
@@ -567,8 +567,8 @@ In this table, as in the previous one, it is possible to observe that there is a
 </figure>
 
 <h2 id="34-prediction-time">3.4. Prediction time</h2>
-<p>The \autoref{tab:rpre} shows the neural network's prediction times, once training is complete. Times are for 10, 20, and 30 neurons per hidden layer, and 1, 4, and 8 layers. Most times are relatively close, around 0.7 seconds. Compared to the training time of about 43 seconds in the best cases, the time to predict the final result represents about 1.5\% of the training time, relatively. The difference is very large, and shows that we should look for algorithms or solutions where the number of trainings is smaller than the number of predictions, when  applicable.</p>
-<figure id="fig:rpre">
+<p>The <a href="#tab:rpre">Table 3</a> shows the neural network's prediction times, once training is complete. Times are for 10, 20, and 30 neurons per hidden layer, and 1, 4, and 8 layers. Most times are relatively close, around 0.7 seconds. Compared to the training time of about 43 seconds in the best cases, the time to predict the final result represents about 1.5\% of the training time, relatively. The difference is very large, and shows that we should look for algorithms or solutions where the number of trainings is smaller than the number of predictions, when  applicable.</p>
+<figure id="tab:rpre">
 <img src="img/rpre.svg" width="90%">
 <figcaption>
 <b>Table 3</b>. Prediction times for different number of neurons and hidden layers. On the color scale, the best values are highlighted in red.
