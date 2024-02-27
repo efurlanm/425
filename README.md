@@ -1,4 +1,4 @@
-# My personal notes from Advanced Topics in Environmental Modeling (CAP 425)
+# My personal notes from the Advanced Topics in Environmental Modeling course (CAP 425)
 
 *Last edited: 2024-02-17*
 
@@ -14,7 +14,9 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 ## Works
 
-- [project](project) directory: code and results of the Course Project
+- [manuscript](manuscript) directory: academic manuscript of the project developed in the course.
+
+- [project](project) directory: code and results of the course project.
 
 - [cerrado.md](cerrado.md): review points of [New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868) (original article in Portuguese)
 

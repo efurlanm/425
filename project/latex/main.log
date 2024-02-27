@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.3)  6 DEC 2023 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.25)  25 FEB 2024 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -396,7 +396,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language3
+\langwohyphens=\language6
 LaTeX Info: Redefining \_ on input line 43.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -869,12 +869,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3BB34424590BC033DC4BFF850D4A7D11;1249.
  ) 
 Here is how much of TeX's memory you used:
- 18450 strings out of 480247
- 280471 string characters out of 5896151
- 1074419 words of memory out of 5000000
- 35780 multiletter control sequences out of 15000+600000
+ 18450 strings out of 480186
+ 280471 string characters out of 5894355
+ 1074624 words of memory out of 5000000
+ 35793 multiletter control sequences out of 15000+600000
  629680 words of font info for 357 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 38 hyphenation exceptions out of 8191
  73i,11n,80p,1158b,1467s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/share/texlive/texmf-di
