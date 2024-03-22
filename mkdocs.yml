@@ -5,27 +5,18 @@ repo_name: "425"
 repo_url: http://github.com/efurlanm/425/
 docs_dir: docs-src
 site_dir: docs
+use_directory_urls: false  # need for inline html and dir navigation
 theme:
     name: material
-# https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
     palette:
+# https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
         primary: brown
         accent: brow
     features:
         - header.autohide
-plugins:
-    - offline  # needs "- privacy" too
-    - privacy
-    - search
-# 2024-03-16 There is a bug where mermaid will always be downloaded and installed, even if it is not used.
 markdown_extensions:
     - pymdownx.arithmatex:
         generic: true
-    - pymdownx.superfences:
-        custom_fences:
-            - name: mermaid
-              class: mermaid
-              format: !!python/name:pymdownx.superfences.fence_code_format
     - pymdownx.highlight:
         anchor_linenums: true
         line_spans: __span
@@ -37,13 +28,20 @@ markdown_extensions:
     - md_in_html
     - tables
 extra_javascript:
-    - javascripts/katex/katex.min.js
-    - javascripts/katex/contrib/auto-render.min.js
     - javascripts/katex.js
+    - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+    - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
 extra_css:
-    - javascripts/katex/katex.min.css
+    - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
     - css/extra.css
 exclude_docs: |
     .ipynb_checkpoints
     .git
+nav:
+    - Abstract: "index.md"
+    - 1. Introduction: 'introduction.md'
+    - 2. Material and methods: 'material.md'
+    - 3. Results: 'results.md'
+    - 4. Conclusions: 'conclusions.md'
+    - References: 'references.md'
 
