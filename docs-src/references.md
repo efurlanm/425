@@ -1,5 +1,5 @@
 0. <span id='Chevallier2000'></span>
-F. Chevallier, J. Morcrette, F. Chéruy, and N. A. Scott, “Use of a neural-network-based long-wave radiative-transfer scheme in the ECMWF atmospheric model,” Quart J Royal Meteoro Soc, vol. 126, no. 563, pp. 761–776, Jan. 2000. <https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.49712656318>
+F. Chevallier, J. Morcrette, F. Chéruy, and N. A. Scott, “Use of a neural-network-based long-wave radiative-transfer scheme in the ECMWF atmospheric model,” Quart J Royal Meteoro Soc, vol. 126, no. 563, pp. 761–776, Jan. 2000. <https://doi.org/10.1002/qj.49712656318>
 
 0. <span id='Krasnopolsky2006'></span>
 V. M. Krasnopolsky and M. S. Fox-Rabinovitz, “A new synergetic paradigm in environmental numerical modeling: Hybrid models combining deterministic and machine learning components,” Ecological Modelling, vol. 191, no. 1, pp. 5–18, Jan. 2006. <https://www.sciencedirect.com/science/article/pii/S0304380005003455>
@@ -17,4 +17,4 @@ J. Burkardt, “Investigating Uncertain Parameters in the Burgers Equation,” M
 W. Koehrsen, “Overfitting vs. underfitting: A complete example,” Towards Data Science, vol. 405, 2018. <http://www.pstu.ac.bd/files/materials/1566949131.pdf>
 
 0. <span id='Xu2022'></span>
-S. Xu, Z. Sun, R. Huang, G. Dilong, G. Yang, and S. Ju, “A practical approach to flow field reconstruction with sparse or incomplete data through physics informed neural network,” Acta Mechanica Sinica, vol. 39, Nov. 2022. <https://www.doi.org/10.1007/s10409-022-22302-x>
+S. Xu, Z. Sun, R. Huang, G. Dilong, G. Yang, and S. Ju, “A practical approach to flow field reconstruction with sparse or incomplete data through physics informed neural network,” Acta Mechanica Sinica, vol. 39, Nov. 2022. <https://doi.org/10.1007/s10409-022-22302-x>
