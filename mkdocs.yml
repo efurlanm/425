@@ -12,6 +12,7 @@ theme:
     palette:
         primary: brown
         accent: brow
+    font: false
     features:
         - header.autohide
 plugins:
