@@ -10,9 +10,9 @@ Anomalies and extreme events. Statistical fundamentals. Change monitoring and de
 
 ## Works
 
-- [project](project) directory: code and results of the course project, including the manuscript.
+- [project/](project): code, results, and manuscript generated in the course project
 
-- [cerrado.md](cerrado.md): review points of "[New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868)" (original article in Portuguese)
+- [cerrado.md](cerrado.md): article "[New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868)" review points.
 
 - [descriptive.md](descriptive.md) and [descriptive.ipynb](descriptive.ipynb): review points on descriptive statistics
 
