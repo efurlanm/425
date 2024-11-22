@@ -26,8 +26,8 @@ Below are some points that I note as I read about the subject.
 
 - Generally used to solve PDE, but can solve SDE as well
   
-  - PDE = Partial Differential Equation
-  - SPDE = Stochastic Partial Differential Equation
+     - PDE = Partial Differential Equation
+     - SPDE = Stochastic Partial Differential Equation
 
 - SPDE: one or more of the terms is a stochastic process.
 

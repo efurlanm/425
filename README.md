@@ -2,21 +2,17 @@
 
 *Last edited: 2024-11-21*
 
-This repository contains my work and personal notes for this course at [INPE](http://www.inpe.br/posgraduacao/).
+This repository contains my personal notes and work developed during the course at [INPE](http://www.inpe.br/posgraduacao/).
 
 ## Course summary
 
-- Anomalies and extreme events
-- Statistical fundamentals
-- Change monitoring and detection
-- Examples involving Geostatistics and Machine Learning
-- Applications in space weather - ionospheric scintillation, and hydrology - floods and urban flooding
+Anomalies and extreme events. Statistical fundamentals. Change monitoring and detection. Examples involving Geostatistics and Machine Learning. Applications in space weather - ionospheric scintillation, and hydrology - floods and urban flooding.
 
 ## Works
 
 - [project](project) directory: code and results of the course project, including the manuscript.
 
-- [cerrado.md](cerrado.md): review points of [New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868) (original article in Portuguese)
+- [cerrado.md](cerrado.md): review points of "[New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868)" (original article in Portuguese)
 
 - [descriptive.md](descriptive.md) and [descriptive.ipynb](descriptive.ipynb): review points on descriptive statistics
 
@@ -26,6 +22,7 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 - [stochastic.ipynb](stochastic.ipynb): Stochastic Gradient Descent
 
+- [stochastic_deterministic.md](stochastic_deterministic.md): Stochastic vs Deterministic models
 
 ## Links of interest
 
@@ -39,7 +36,6 @@ This repository contains my work and personal notes for this course at [INPE](ht
 
 - [Raissi et al. (2019)](https://doi.org/10.1016/j.jcp.2018.10.045) work on PINN: <https://github.com/maziarraissi/PINNs>
 
-
 ## Presentations
 
 (in Portuguese)
@@ -50,7 +46,6 @@ This repository contains my work and personal notes for this course at [INPE](ht
 - Provocations: basic concepts in Complex Networks. <https://youtu.be/oH3XWGeD89w>
 - Provocations: generation models in Complex Networks. <https://youtu.be/a33RaqwNQMs>
 - Prof. Leonardo Santos channel, with material related to the course. <https://www.youtube.com/@santoslblx>
-
 
 ## References
 
