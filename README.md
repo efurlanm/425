@@ -10,19 +10,19 @@ Anomalies and extreme events. Statistical fundamentals. Change monitoring and de
 
 ## Works
 
-- [project/](project): code, results, and manuscript generated in the course project
+- [project/](project): code, results, and manuscript generated in the course project.
 
 - [cerrado.md](cerrado.md): article "[New system is capable of predicting fires in the Cerrado in practically real time](https://agencia.fapesp.br/novo-sistema-e-capaz-de-prever-incendios-no-cerrado-em-tempo-praticamente-real/41868)" review points.
 
-- [descriptive.md](descriptive.md) and [descriptive.ipynb](descriptive.ipynb): review points on descriptive statistics
+- [descriptive.md](descriptive.md) and [descriptive.ipynb](descriptive.ipynb): review points on descriptive statistics.
 
-- [average.ipynb](average.ipynb): comparison of averages
+- [average.ipynb](average.ipynb): comparison of averages.
 
-- [regression.ipynb](regression.ipynb): linear regression
+- [regression.ipynb](regression.ipynb): linear regression.
 
-- [stochastic.ipynb](stochastic.ipynb): Stochastic Gradient Descent
+- [stochastic.ipynb](stochastic.ipynb): Stochastic Gradient Descent.
 
-- [stochastic_deterministic.md](stochastic_deterministic.md): Stochastic vs Deterministic models
+- [stochastic_deterministic.md](stochastic_deterministic.md): Stochastic vs Deterministic models.
 
 ## Links of interest
 
@@ -32,9 +32,9 @@ Anomalies and extreme events. Statistical fundamentals. Change monitoring and de
 
 - [Regression analysis](https://en.wikipedia.org/wiki/Regression_analysis): is a set of statistical processes to estimate the relationships between a dependent variable and one or more independent variables, and the most common form is linear regression, in which the line that best fits the data is found according to a specific mathematical criterion.
 
-- [Escapil-Inchauspé \& Ruz (2023)](http://arxiv.org/abs/2302.08835) work on Horovod and PINN: <https://github.com/pescap/HorovodPINNs>
+- [Escapil-Inchauspé \& Ruz (2023)](http://arxiv.org/abs/2302.08835) work on Horovod and PINN: <https://github.com/pescap/HorovodPINNs>.
 
-- [Raissi et al. (2019)](https://doi.org/10.1016/j.jcp.2018.10.045) work on PINN: <https://github.com/maziarraissi/PINNs>
+- [Raissi et al. (2019)](https://doi.org/10.1016/j.jcp.2018.10.045) work on PINN: <https://github.com/maziarraissi/PINNs>.
 
 ## Presentations
 
