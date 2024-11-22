@@ -10,6 +10,6 @@ This subdirectory contains the raw results of the tests performed, LaTeX fonts, 
 
 - Manuscript: DOI [10.5281/zenodo.10676770](https://zenodo.org/doi/10.5281/zenodo.10676770).
 
-- [Online HTML version of the manuscript](https://efurlanm.github.io/425).
+- [Online HTML version of the manuscript](https://efurlanm.github.io/425/).
 
 - [Manuscript LaTeX sources](manuscript).
