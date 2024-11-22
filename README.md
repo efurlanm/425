@@ -4,7 +4,7 @@
 
 This repository contains my personal notes and work developed during the course at [INPE](http://www.inpe.br/posgraduacao/). The work developed in the course generated a manuscript:
 
-- Miranda, E. F., Santos, L. B. L., & Stephany, S. (2023). Data-Driven Parameter Discovery of a One-Dimensional Burgers’ Equation Using a Physics-Informed Neural Network [Manuscript]. DOI [10.5281/zenodo.10676770](https://zenodo.org/doi/10.5281/zenodo.10676770). [[Online HTML version]](https://efurlanm.github.io/425/).
+- Miranda, E. F., Santos, L. B. L., & Stephany, S. (2023). Data-Driven Parameter Discovery of a One-Dimensional Burgers’ Equation Using a Physics-Informed Neural Network [Manuscript]. DOI [10.5281/zenodo.10676770](https://zenodo.org/doi/10.5281/zenodo.10676770). [[Online HTML version](https://efurlanm.github.io/425/)].
 
 ## Course summary
 
