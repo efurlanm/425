@@ -4,6 +4,8 @@
 
 This repository contains my personal notes and work developed during the course at [INPE](http://www.inpe.br/posgraduacao/).
 
+The work developed during the course [generated a manuscript](https://efurlanm.github.io/425/).
+
 ## Course summary
 
 Anomalies and extreme events. Statistical fundamentals. Change monitoring and detection. Examples involving Geostatistics and Machine Learning. Applications in space weather - ionospheric scintillation, and hydrology - floods and urban flooding.
@@ -49,8 +51,6 @@ Anomalies and extreme events. Statistical fundamentals. Change monitoring and de
 
 ## References
 
-Albeverio, S., Jentsch, V., & Kantz, H. (Eds.). (2006). Extreme Events in Nature and Society. Springer. DOI: [10.1007/3-540-28611-X](https://doi.org/10.1007/3-540-28611-X).
-
-Santos, L. B. L., Londe, L. R., de Carvalho, T. J., S. Menasché, D., & Vega-Oliveros, D. A. (2019). About Interfaces Between Machine Learning, Complex Networks, Survivability Analysis, and Disaster Risk Reduction. In L. Bacelar Lima Santos, R. Galante Negri, & T. J. de Carvalho (Eds.), Towards Mathematics, Computers and Environment: A Disasters Perspective (pp. 185–215). Springer International Publishing. DOI: [10.1007/978-3-030-21205-6_10](https://doi.org/10.1007/978-3-030-21205-6_10).
-
-Stephany, S., Strauss, C., Calheiros, A. J. P., de Lima, G. R. T., Garcia, J. V. C., & Pessoa, A. S. A. (2019). Data Mining Approaches to the Real-Time Monitoring and Early Warning of Convective Weather Using Lightning Data. In L. Bacelar Lima Santos, R. Galante Negri, & T. J. de Carvalho (Eds.), Towards Mathematics, Computers and Environment: A Disasters Perspective (pp. 83–101). Springer International Publishing. DOI: [10.1007/978-3-030-21205-6_5](https://doi.org/10.1007/978-3-030-21205-6_5).
+- Albeverio, S., Jentsch, V., & Kantz, H. (Eds.). (2006). Extreme Events in Nature and Society. Springer. DOI: [10.1007/3-540-28611-X](https://doi.org/10.1007/3-540-28611-X).
+- Santos, L. B. L., Londe, L. R., de Carvalho, T. J., S. Menasché, D., & Vega-Oliveros, D. A. (2019). About Interfaces Between Machine Learning, Complex Networks, Survivability Analysis, and Disaster Risk Reduction. In L. Bacelar Lima Santos, R. Galante Negri, & T. J. de Carvalho (Eds.), Towards Mathematics, Computers and Environment: A Disasters Perspective (pp. 185–215). Springer International Publishing. DOI: [10.1007/978-3-030-21205-6_10](https://doi.org/10.1007/978-3-030-21205-6_10).
+- Stephany, S., Strauss, C., Calheiros, A. J. P., de Lima, G. R. T., Garcia, J. V. C., & Pessoa, A. S. A. (2019). Data Mining Approaches to the Real-Time Monitoring and Early Warning of Convective Weather Using Lightning Data. In L. Bacelar Lima Santos, R. Galante Negri, & T. J. de Carvalho (Eds.), Towards Mathematics, Computers and Environment: A Disasters Perspective (pp. 83–101). Springer International Publishing. DOI: [10.1007/978-3-030-21205-6_5](https://doi.org/10.1007/978-3-030-21205-6_5).
