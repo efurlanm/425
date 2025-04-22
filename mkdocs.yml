@@ -1,22 +1,32 @@
 site_name: 1D Burgers PINN Discovery
 site_author: Eduardo Furlan
+site_description: 1D Burgers PINN Discovery
 site_url: https://efurlanm.github.io/425/
 copyright: CC BY 4.0 License
 repo_name: "425"
 repo_url: http://github.com/efurlanm/425/
-docs_dir: src
 site_dir: docs
+docs_dir: src
+use_directory_urls: false
 theme:
+    font: false                 # no external fonts
     name: material
     # squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
     palette:
         primary: brown
         accent: brow
-    font: false
     features:
         - header.autohide
+        - navigation.tracking   # address show active anchor
 plugins:
     - search
+extra_css:
+    - css/extra.css
+    - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css
+extra_javascript:
+    - javascripts/katex.js
+    - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js
+    - https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
 markdown_extensions:
     - def_list
     - md_in_html
@@ -29,15 +39,6 @@ markdown_extensions:
         anchor_linenums: true
         line_spans: __span
         pygments_lang_class: true
-extra_css:
-    - css/extra.css
-    - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css
-extra_javascript:
-    - javascripts/katex.js
-    - https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js
-    - https://cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js
-exclude_docs: |
-    .*
 nav:
     - Abstract: "index.md"
     - 1. Introduction: 'introduction.md'
@@ -45,4 +46,6 @@ nav:
     - 3. Results: 'results.md'
     - 4. Conclusions: 'conclusions.md'
     - References: 'references.md'
-
+exclude_docs: |
+    .*
+    *§*
